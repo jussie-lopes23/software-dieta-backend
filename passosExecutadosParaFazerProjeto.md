@@ -1,0 +1,4 @@
+- 1° passo: baixei todas as dependências (package.json, tsconfig.json, typescript, fastify, zod, dotenv, vitest, knex, sqlite)
+- 2° passo: criei o serve.ts e testei o servidor;
+- 3° passo: criei o .gitignore, o .env e o en.example e a pasta do banco de dados. 
+- 4° passo: criei a pasta env em se tem o arquivo index.ts para validar as variáveis de ambiente
