@@ -2,4 +2,7 @@
 - 2° passo: criei o serve.ts e testei o servidor;
 - 3° passo: criei o .gitignore, o .env e o en.example e a pasta do banco de dados. 
 - 4° passo: criei a pasta env em src e nela tem o arquivo index.ts para validar as variáveis de ambiente
-        - Criei uma const envSchema para validar as varíavés de ambiente com zod 
+        - Criei uma const envSchema para validar as varíavés de ambiente com zod
+- 5° passo: criei o arquivo de configuração do banco de dados (database.ts)
+        - dúvidas: por que exportar o config e o db? Por que usar Knex e knex (letra maiuscula e minnuscula )
+- 6° passo: será criar o knexfile.ts
