@@ -1,5 +1,6 @@
 //import fastify = require("fastify");
 import fastify from 'fastify'
+import { env } from './env/index.js'
 
 const app = fastify()
 

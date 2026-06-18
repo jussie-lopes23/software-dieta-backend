@@ -8,7 +8,14 @@ const envSchema = z.object({
     PORT: z.coerce.number().default(3333), 
 })
 
+
+
 const _env = envSchema.safeParse(process.env)
+
+
+if (_env.success === true) {
+  console.log("ambiente atual:", _env.data.NODE_ENV) 
+}
 
 if(_env.success === false ){
     console.error('Variáveis ​​de ambiente inválidas', _env.error.format())
